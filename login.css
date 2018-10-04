@@ -1,0 +1,64 @@
+
+.black{
+	background-color: black;
+	display: block;
+}
+*{
+	box-sizing: border-box;
+}
+.login-div{
+	background-color: #ffffff;
+	width: 60%;
+	height: 300px;
+	margin: 10% auto auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.my-below{
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+span{
+	color: #1f9117;
+}
+.float{
+	float: left;
+	width: 48%;
+	margin: 2px;
+	text-align: center;
+	height: 100%;
+	padding: 1px;
+}
+
+
+.left-div input, .input-left{
+	width: 95%;
+	margin: 8px auto;
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px rgba(233, 221, 226, 0.24);
+}
+.left-div input[type='checkbox']{
+	width: auto;
+}
+
+.button{
+	background-color: #2ba91e;
+}
+.left, .right{
+	float: left;
+	width: 45%;
+	display: table-cell;
+}
+
+.left, .right{
+	margin-top: 1em;
+	display: table;
+	color: gray;
+}
+.left > div{
+	display: table-cell;
+}
+
